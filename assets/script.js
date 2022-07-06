@@ -43,3 +43,40 @@ function timeBlockColor() {
         }
     })
 };
+
+// WHEN I click the save button for that time block
+
+saveBtn.on("click", function(){
+
+var time = $(this).siblings(".hour").text();
+var plan = $(this).siblings(".plan").val();
+
+
+// THEN the text for that event is saved in local storage
+localStorage.setItem(time, plan);
+
+})
+
+
+// WHEN I refresh the page
+// THEN the saved events persist
+function usePlanner() {
+
+    $(".hour").each(function() {
+        var currHour = $(this).text();
+        var currPlan = localStorage.getItem(currHour);
+
+        // console.log(this);
+        // console.log(currHour);
+
+
+        if(currHour !== null){
+            $(this).siblings(".plan").val(currPlan);
+        }
+    });
+}
+
+// call functions
+
+timeBlockColor();
+usePlanner();
