@@ -1,11 +1,15 @@
 # Module 05 Third-Party APIs: Work Day Scheduler
 
 Websites:
-Github: 
-Deployed:
+Github: https://github.com/Jlnaraga/day-scheduler.git
+Deployed: https://jlnaraga.github.io/day-scheduler/index.html
+
 
 # Screenshots
-![Desktop View]()
+![Desktop View](./screenshots/jlnaraga.github.io_day-scheduler_index.html.png)
+
+[DEMO](./screenshots/demo-day%20scheduler%20gif.gif)
+
 
 
 Work Day Scheduler/Module 5 challenge
@@ -36,6 +40,9 @@ CSS
 Bootstrap
 jQuery
 Moment.js
+
+
+ 
 
 
 ## Grading Requirements
