@@ -27,7 +27,7 @@ textarea {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #7e177e;
 }
 
 .description {
@@ -47,8 +47,8 @@ textarea {
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  color: #7e1770;
+  border-top: 1px dashed #7e1770;
 }
 
 .past {
@@ -67,7 +67,7 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 2px solid #7e177e;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #eeace0;

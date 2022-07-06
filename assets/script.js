@@ -35,7 +35,7 @@ function timeBlockColor() {
         // console.log(this);  each time-block
 
         if (currHour > hour) {
-            $(this).addclass("future");
+            $(this).addClass("future");
         } else if (currHour === hour){
             $(this).addClass("present");
         } else {
